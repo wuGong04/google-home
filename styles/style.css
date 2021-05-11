@@ -59,13 +59,12 @@ p {
     font-weight: 200;
 }
 
-ul {
+#topLinks {
     display: flex;
     list-style-type: none;
     margin-top: 0;
     padding: 0;
-    color: black;
- 
+    color: black; 
     justify-content: space-between;
    
   
@@ -158,4 +157,14 @@ button:hover{
 
 a:hover{
     text-decoration: underline;
+}
+
+#bottomLinks {
+    
+    display: flex;    
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    border-style: dashed;
+    align-content: flex-end;
 }
