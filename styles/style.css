@@ -161,10 +161,13 @@ a:hover{
 
 #bottomLinks {
     
-    display: flex;    
+    display: flex;  
     justify-content: space-between;
     list-style-type: none;
     padding: 0;
     border-style: dashed;
-    align-content: flex-end;
+    margin-top: 320px
+    
+   
+    
 }
