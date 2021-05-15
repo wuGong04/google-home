@@ -1,9 +1,11 @@
 #container {  
-    /* display: block;  */
-    height: 500px;
+    display: flexbox;
+    flex-direction: column;
+    height: calc(100vh - 25px);
     top: 0;
     width: 100%;    
-    /* border-style: dashed;  */
+    border-style: dashed; 
+    box-sizing: border-box;
     
 }
 
@@ -58,6 +60,7 @@ p {
     font-style: italic;
     font-weight: 200;
 }
+
 
 #topLinks {
     display: flex;
@@ -166,8 +169,19 @@ a:hover{
     list-style-type: none;
     padding: 0;
     border-style: dashed;
-    margin-top: 320px
+    
     
    
+   
     
+}
+
+#appIcon:hover{
+    cursor: pointer;
+    opacity: 1.5;
+}
+
+#appIcon {
+    opacity: 0.7;
+      
 }
