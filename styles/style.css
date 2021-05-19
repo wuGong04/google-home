@@ -1,11 +1,10 @@
 #container {  
-    display: flexbox;
+    position: relative;
     flex-direction: column;
-    height: calc(100vh - 25px);
+    min-height: 100vh;
     top: 0;
     width: 100%;    
-    border-style: dashed; 
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     
 }
 
@@ -141,6 +140,8 @@ li img{
 
 #googleSearchButtons{
     padding: 20px;
+    padding-bottom: 2.5rem;
+ 
 }
 
 button{
@@ -165,16 +166,23 @@ a:hover{
 #bottomLinks {
     
     display: flex;  
+    position: absolute;
     justify-content: space-between;
     list-style-type: none;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
     padding: 0;
-    border-style: dashed;
-    
-    
+    background-color: #f3f0f0f8;
+    height: 2.5rem;
    
-   
-    
 }
+
+#bottomLinks span{
+    margin-bottom: 0;
+}
+
 
 #appIcon:hover{
     cursor: pointer;
