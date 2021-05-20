@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 #container {  
     position: relative;
     flex-direction: column;
     min-height: 100vh;
     top: 0;
-    width: 100%;    
+    width: 100%; 
+   
     /* box-sizing: border-box; */
     
 }
@@ -74,8 +79,7 @@ p {
 
   span {
       display: flex;
-      align-items: center;
-      
+      align-items: center;     
   }
 
 li {
@@ -193,3 +197,4 @@ a:hover{
     opacity: 0.7;
       
 }
+
