@@ -98,8 +98,8 @@ li a{
     text-decoration: none;
     color: black;
     font-family: Arial, sans-serif;
-    font-size: 12px;
-    opacity: 75%;
+    font-size: 15px;
+    opacity: 70%;
     
 }
 
@@ -131,8 +131,12 @@ li img{
 #searchIcon {
     position: absolute;
     margin-left:5px;
-    margin-top: 5px;
+    margin-top: 5px;   
     
+}
+
+#logo img{
+    height: 180px; 
 }
 
 #logoInputContainer {
