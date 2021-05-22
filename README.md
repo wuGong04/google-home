@@ -1,10 +1,12 @@
-#Google-Home
+Google-Home
+===
 
 
-##mini project to destruct an existing web page and rebuild it.
+mini project to destruct an existing web page and rebuild it.
+---
 
-
-###Skills utilized to build the web page
+Skills utilized to build the web page
+----
 
     * Use `div, span, ul, li, a html tags` to group page content  
     * Use `flexbox` to position html elements of the page  
