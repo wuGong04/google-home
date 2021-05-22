@@ -1,10 +1,12 @@
 # google-home
-===============
+==========
 
 mini project to destruct an existing web page and rebuild it.
-------------
+---
 
-Utilize the following skills to build the web page
+Skills utilized to build the web page
+-----
+```
 
     Use div, span, ul, li, a html tags to group page content
 
@@ -26,7 +28,8 @@ Utilize the following skills to build the web page
     Use justify-content: space-between and list-style-type: none to align two lists of two items in one row with one list on left and one list on right.
 
     Use .hover to change how an image or link looks as we move mouse pointer over it.
-    
+
     user cursor: pointer on .hover to change mouse pointer to hand pointer.
-    
+    ```
+    ```
 
