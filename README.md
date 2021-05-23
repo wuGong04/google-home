@@ -18,5 +18,6 @@
     * Remove all pre-defined/hidden CSS margin and padding  
     * Use `justify-content: space-between` and `list-style-type: none` to align two lists of two items in one row with one list on left and one list on right.
     * Use `.hover` to change how an image or link looks as we move mouse pointer over it.  
-    * user `cursor: pointer` on `.hover` to change mouse pointer to hand pointer.  
+    * use `cursor: pointer` on `.hover` to change mouse pointer to hand pointer.  
+    * use `input:focus::-webkit-input-placeholder {color: transparent}` to clear placeholder text in search inputbox
  
