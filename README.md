@@ -20,4 +20,6 @@
     * Use `.hover` to change how an image or link looks as we move mouse pointer over it.  
     * use `cursor: pointer` on `.hover` to change mouse pointer to hand pointer.  
     * use `input:focus::-webkit-input-placeholder {color: transparent}` to clear placeholder text in search inputbox
+    * use `[type="search"]::-webkit-search-cancel-button`to remove default search input box (clear) icon
+    * use '[type="search"]::-webkit-search-decoration` to clear any default search input box settings
  
