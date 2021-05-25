@@ -22,4 +22,5 @@
     * use `input:focus::-webkit-input-placeholder {color: transparent}` to clear placeholder text in search inputbox
     * use `[type="search"]::-webkit-search-cancel-button`to remove default search input box (clear) icon
     * use '[type="search"]::-webkit-search-decoration` to clear any default search input box settings
+    * use `padding-right = 50px` to avoid overlap of microphone icon with user input search string
  
